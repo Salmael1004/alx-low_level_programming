@@ -10,19 +10,22 @@ int main(void)
 {
 	int n, c, t;
 
-	for (n = 0; n < 8; n++)
+	for (n = 48; n < 58; n++)
 	{
-		for (c = 1; c < 9; c++)
+		for (c = 49; c < 58; c++)
 		{
-			for (t = 2; t < 10; t++)
+			for (t = 50; t < 58; t++)
 			{
-				putchar('0' + n);
-				putchar('0' + c);
-				putchar('0' + t);
-				if (n < 7 || c < 8 || t < 9)
+				if (t > c && c > n)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(n);
+					putchar(c);
+					putchar(t);
+					if (n != 55 || c != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
