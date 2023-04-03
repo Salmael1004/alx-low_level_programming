@@ -24,12 +24,12 @@ unsigned int _strspn(char *s, char *accept)
 				f++;
 				flag = 1;
 			}
-		}	
+		}
 		if (flag == 0)
 		{
 			return (f);
 		}
 	}
-	
+
 	return (0);
 }
