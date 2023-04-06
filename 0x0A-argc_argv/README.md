@@ -18,3 +18,15 @@
 * The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
 * Don’t forget to push your header file
 * You are allowed to use the standard library
+
+## About
+
+* File `0-whatsmyname.c` is a program that prints its name, followed by a new line.
+
+* File `1-args.c` is a program that prints the number of arguments passed into it.
+
+* File `2-args.c` is a program that prints all arguments it receives.
+
+* File `3-mul.c` is a program that multiplies two numbers.
+
+* File `4-add.c` is a program that adds positive numbers.
