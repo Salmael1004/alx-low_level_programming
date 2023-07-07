@@ -33,6 +33,7 @@ typedef struct hash_table_s
 } hash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
+unsigned long int hash_djb2(const unsigned char *str);
 
 /**
  * struct shash_node_s - Node of a sorted hash table
@@ -70,5 +71,6 @@ typedef struct shash_table_s
 } shash_table_t;
 
 shash_table_t *shash_table_create(unsigned long int size);
+
 
 #endif
